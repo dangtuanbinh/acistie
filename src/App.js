@@ -1,7 +1,11 @@
-import AppContainer from "./components/basic/AppContainer";
+import React, {Component}  from "react"
+import AppContainer from "./components/AppContainer";
 
-function App() {
-  return <AppContainer />;
+class App extends Component {
+  render() {
+    return <AppContainer />;
+  }
+  
 }
 
 export default App;

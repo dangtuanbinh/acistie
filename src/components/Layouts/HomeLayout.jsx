@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from '../basic/Navbar'
+import Header from '../basic/Header'
 
 const HomeLayout = () => {
     return (
         <div>
-            <Navbar />
+            <Header />
         </div>
     )
 }

@@ -1,0 +1,63 @@
+@import "../../../theme/config";
+
+.navBar__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.navBar {
+    width: 1500px;
+    height: spacing(12);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__brand{
+        flex-grow: 0.75;
+    }
+    &__navigation{
+        width: spacing(35);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo{
+        cursor: pointer;
+        width: spacing(15);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .MuiSvgIcon-root{
+            color: $textBlack;
+            font-size: spacing(2.5);
+            font-weight: lighter;
+            &:hover{
+                color: $textDarkGrey;
+                transition:  0.2s ease-in-out;
+            }
+        }
+    }
+}
+
+.navigation__link{
+    text-decoration: none;
+    font-size: $h5;
+    color: $textBlack;
+    font-weight: 500;
+    &:hover{
+        text-decoration: none;
+        color: $textGrey;
+        transition:  0.2s ease-in-out;
+    }
+}
+
+.selected {
+    color: $textGrey;
+    font-weight: 700;
+}
+
+.brand__link{
+    text-decoration: none;
+    font-size: $h2;
+    color: $textBlack;
+}
