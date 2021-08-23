@@ -12,7 +12,7 @@ const AppContainer = () => {
     <>
       <BrowserRouter>
         <Switch>
-          <Route path="/payment" component={Payment} />
+          <Route exact path="/payment" component={Payment} />
           <Route path="/cart" component={Cart} />
           <Route path="/contact" component={Contact} />
           <Route path="/blog" component={Blog} />

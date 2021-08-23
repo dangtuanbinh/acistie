@@ -20,7 +20,7 @@ const Header = () => {
           <NavLink className="navigation__link" to="/Contact" activeClassName="selected">Contact</NavLink>
         </div>
         <div className="navBar__logo">
-          <LocalMallOutlinedIcon fontSize="small" />
+          <LocalMallOutlinedIcon />
           <SearchOutlinedIcon />
           <MenuOutlinedIcon />
         </div>
